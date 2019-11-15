@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Noto+Serif+JP&display=swap&subset=japanese,korean');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap&subset=korean');
+
+body {
+    background-position: center;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #B0E0E6;
+}
+
+.title-kor {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+    font-size: 100px;
+    letter-spacing: 5px;
+}
+
+.title-jap {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+.title-eng {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+.album-art {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.album-art > a > img {
+    float: left;
+    width: 16%;
+    margin: 4%;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: rgba(0,0,0,.125);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+.album-name {
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-style: oblique;
+    font-size: 15px;
+}
